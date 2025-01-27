@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: ./MicroondasBenner/MicroondasBenner
+    container_name: microondasbenner
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./MicroondasBenner:/app
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - DOTNET_RUNNING_IN_CONTAINER=true
+
+  frontend:
+    build:
+      context: ./CDMicroondasFrontEnd
+    container_name: microondasfrontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./CDMicroondasFrontEnd:/app

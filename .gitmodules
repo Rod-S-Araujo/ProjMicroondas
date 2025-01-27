@@ -1,0 +1,6 @@
+[submodule "MicroondasBenner"]
+	path = MicroondasBenner
+	url = git@github.com:Rod-S-Araujo/MicroondasBenner.git
+[submodule "CDMicroondasFrontEnd"]
+	path = CDMicroondasFrontEnd
+	url = git@github.com:Rod-S-Araujo/CDMicroondasFrontEnd.git
