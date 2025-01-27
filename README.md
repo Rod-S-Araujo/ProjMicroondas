@@ -1,67 +1,63 @@
-README
+# README
 
 Olá, meu nome é Rodrigo Araujo e estou concorrendo à vaga de desenvolvedor.
 
-Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
+- **Frontend**: Next.js
+- **Backend**: C# .NET
+- **Banco de Dados**: SQLite (escolhido pela praticidade para este tipo de projeto).
 
-Frontend: Next.js
+## Passos para a Instalação
 
-Backend: C# .NET
+1. **Clone o Repositório**
+   - Acesse o diretório em que deseja adicionar o projeto na sua máquina.
+   - Faça o clone do repositório com o comando:
+     ```bash
+     git clone <URL_DO_REPOSITORIO>
+     ```
 
-Banco de Dados: SQLite (escolhido pela praticidade para este tipo de projeto).
+2. **Navegue para o Diretório do Projeto**
+   - Após clonar, utilize o comando:
+     ```bash
+     cd .\projMicroondasDocker\
+     ```
 
-Passos para a Instalação
+3. **Inicie e Atualize os Submódulos**
+   - Execute os comandos:
+     ```bash
+     git submodule init
+     git submodule update
+     ```
 
-Clone o Repositório
+4. **Instale as Dependências do Frontend**
+   - Navegue até a pasta do frontend:
+     ```bash
+     cd .\CDMicroondasFrontEnd\
+     ```
+   - Instale as dependências com:
+     ```bash
+     npm install
+     ```
 
-Acesse o diretório em que deseja adicionar o projeto na sua máquina.
+5. **Retorne à Pasta Raiz do Projeto**
+   - Utilize o comando:
+     ```bash
+     cd ../
+     ```
 
-Faça o clone do repositório com o comando:
+6. **Execute o Docker**
+   - Suba os serviços com:
+     ```bash
+     docker-compose up --build
+     ```
 
-git clone <URL_DO_REPOSITORIO>
+## Pré-requisitos Necessários
 
-Navegue para o Diretório do Projeto
+- **Docker**
+- **Visual Studio Code (VS Code)**
 
-Após clonar, utilize o comando:
-
-cd .\projMicroondasDocker\
-
-Inicie e Atualize os Submódulos
-
-Execute os comandos:
-
-git submodule init
-git submodule update
-
-Instale as Dependências do Frontend
-
-Navegue até a pasta do frontend:
-
-cd .\CDMicroondasFrontEnd\
-
-Instale as dependências com:
-
-npm install
-
-Retorne à Pasta Raiz do Projeto
-
-Utilize o comando:
-
-cd ../
-
-Execute o Docker
-
-Suba os serviços com:
-
-docker-compose up --build
-
-Pré-requisitos Necessários
-
-Docker
-
-Visual Studio Code (VS Code)
+---
 
 Espero que este README seja útil para o entendimento e instalação do projeto. Obrigado pela oportunidade!
-
