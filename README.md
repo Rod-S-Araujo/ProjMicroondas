@@ -15,7 +15,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
    - Acesse o diretório em que deseja adicionar o projeto na sua máquina.
    - Faça o clone do repositório com o comando:
      ```bash
-     git clone <URL_DO_REPOSITORIO>
+     git clone git@github.com:Rod-S-Araujo/ProjMicroondas.git
      ```
 
 2. **Navegue para o Diretório do Projeto**
